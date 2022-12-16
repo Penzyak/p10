@@ -19,23 +19,23 @@ if(isset($_POST['Ok']))
 		{
 			if($m_x <= 3)
 			{
-                echo "y=x^2-3x+9 при x<=3";
-                echo "<br>";
+                                echo "y=x^2-3x+9 при x<=3";
+                                echo "<br>";
 				echo ($this->m_x ** 2) - 3 * $this->m_x + 9;
-                echo "<br>";
+                                echo "<br>";
 			}
 			else
 			{
-                echo "y=x^3+6 при x>3";
-                echo "<br>";
+                                echo "y=x^3+6 при x>3";
+                                echo "<br>";
 				echo $this->m_x ** 3 + 6;
-                echo "<br>";
+                                echo "<br>";
 			}
 		}
 		function Case2()
 		{
-            echo "y=ab+c";
-            echo "<br>";
+                        echo "y=ab+c";
+                        echo "<br>";
 			echo $this->m_a * $this->m_b + $this->m_c;
 		}
 	}
